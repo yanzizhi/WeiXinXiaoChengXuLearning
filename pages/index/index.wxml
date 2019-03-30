@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class='function-area'>
+    <view bindtap='calculator'>简易加法计算器</view>
+    <view bindtap='music'>音乐播放</view>
+    <view bindtap='servey'>旅行计划调查</view>
+    <view bindtap='getweixin'>查询手机号码归属地</view>
+    <view bindtap='clacialSaying'>获取经典语录</view>
+  </view>
+</view>

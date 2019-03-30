@@ -1,0 +1,30 @@
+<!--pages/clacialSaying/clacialSaying.wxml-->
+<view class='page'>
+  <view class='page-head'>
+    <view class='page-title'>经典语录</view>
+  </view>
+
+  <view class='key-word'>
+    <view>输入关键字</view>
+    <input placeholder='关键字 例如：春天' placeholder-class='placeholder-class' bindblur='inputTap'></input>
+  </view>
+
+  <view class='btn-area'>
+    <button bindtap='getClacialSaying'>获取经典语录</button>
+  </view>
+
+  <view class='result' wx:if="{{contentlist !== []}}">
+    <block wx:if="{{warning== ''}}">
+      <block wx:for="{{contentlist}}" wx:for-index="x" wx:key="x">
+        <view class='title'>{{contentlist[x].name}}</view>
+        <block wx:for="{{contentlist[x].mottoList}}" wx:for-index="y" wx:key="y">
+          <view class='content'>{{y+1}}: {{item}}</view>
+        </block>
+      </block>
+    </block>
+    <block wx:else>
+      <view class='warning'>{{warning}}</view>
+    </block>
+
+  </view>
+</view>

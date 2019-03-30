@@ -1,0 +1,4 @@
+<!--pages/switch/switch.wxml-->
+<switch bindchange='choice'>单选开关</switch>
+<switch checked='true'>单选开关</switch>
+

@@ -1,0 +1,5 @@
+<!--pages/photo/photo.wxml-->
+<view class='page-head'>
+  <view class='page-title'>选择照片</view>
+</view>
+<button bindtap='choosePhoto1'>选择照片</button>

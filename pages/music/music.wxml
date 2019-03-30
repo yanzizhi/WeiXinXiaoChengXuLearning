@@ -1,0 +1,3 @@
+<!--pages/music/music.wxml-->
+<image src='{{music.billboard.pic_s444}}'></image>
+<image src='{{music.billboard.bg_pic}}'></image>

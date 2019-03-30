@@ -1,0 +1,142 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.4",
+	"appid": "wx440c1ec75a6d5fd8",
+	"projectname": "%E7%AE%80%E6%98%93%E5%8A%A0%E6%B3%95%E8%AE%A1%E7%AE%97%E5%99%A8",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 13,
+			"list": [
+				{
+					"id": 0,
+					"name": "加法计算器",
+					"pathName": "pages/calculator/calculator",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "view",
+					"pathName": "pages/view/view",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "button",
+					"pathName": "pages/button/button",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "switch组件",
+					"pathName": "pages/switch/switch",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "form组件",
+					"pathName": "pages/form/form",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "调查问卷",
+					"pathName": "pages/survey/survey",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "交互反馈",
+					"pathName": "pages/loading/loading",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "交互反馈",
+					"pathName": "pages/loading/loading",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "媒体",
+					"pathName": "pages/media/media",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "网络请求",
+					"pathName": "pages/getweixin/getweixin",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "经典语录",
+					"pathName": "pages/clacialSaying/clacialSaying",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "相机",
+					"pathName": "pages/photo/photo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "地理位置",
+					"pathName": "pages/location/location",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "微音乐",
+					"pathName": "pages/music/music",
+					"scene": null
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,19 @@
+<!--pages/getweixin/getweixin.wxml-->
+<view class='page'>
+  <view class='page-head'>
+    <view class='page-title'>查询手机号码归属地</view>
+  </view>
+  <input value='{{phoneNum}}' placeholder='输入手机号码' type='number' bindblur='inputPhoneNum' maxlength='11'></input>
+
+  <view class='btn-area'>
+    <button bindtap='getweixinTap'>点击查询号码归属地</button>
+  </view>
+
+  <view class='info-area' wx:if="{{info.name}}">
+    <view class='info-area-title'>{{phoneNum}}详情</view>
+    <view class='text'>名称：{{info.name}}</view>
+    <view class='text'>城市：{{info.city}}</view>
+    <view class='text'>省份：{{info.prov}}</view>
+    <view class='text'>邮编：{{info.postCode}}</view>
+  </view>
+</view>

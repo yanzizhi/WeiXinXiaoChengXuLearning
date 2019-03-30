@@ -1,0 +1,11 @@
+<!--pages/button/button.wxml-->
+<view class='page-head'>
+  <image src='{{userInfo.avatarUrl}}'></image>
+  <view class='userInfo'>
+    <text>{{userInfo.nickName}}</text>
+    <text wx:if="{{userInfo.gender == 1}}">性别：男</text>
+    <text wx:if="{{userInfo.gender == 2}}">性别：女</text>
+    <text wx:if="{{userInfo.city}}">位置：{{userInfo.city}}</text>
+  </view>
+</view>
+<button bindgetuserinfo="getUserInfo" open-type="getUserInfo">获取用户信息</button>

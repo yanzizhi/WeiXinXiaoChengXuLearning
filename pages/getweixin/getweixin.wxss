@@ -1,0 +1,32 @@
+/* pages/getweixin/getweixin.wxss */
+page {
+  /* text-align: center; */
+}
+input {
+  margin: 20rpx 10%;
+  margin-bottom: 100rpx;
+  /* width: 80%; */
+  background-color: #f8f8f8;
+  padding: 30rpx 20rpx;
+  border-radius: 10rpx;
+  text-align: center;
+}
+
+.info-area {
+  margin: 80rpx 30rpx;
+  padding: 20rpx 120rpx;
+  border: 1px solid #dddddd;
+}
+.text {
+  margin: 10rpx 0;
+  font-size: 32rpx;
+  color: #aaaaaa;
+}
+.info-area-title {
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #888888;
+  margin-bottom: 40rpx;
+  margin-top: 20rpx;
+}

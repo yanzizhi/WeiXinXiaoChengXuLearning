@@ -1,0 +1,15 @@
+<!--pages/calculator/calculator.wxml-->
+<view class='container'>
+  <input placeholder='被加数' bindinput='bindInput1'></input>
+  <input placeholder='加数' bindinput='bindInput2'></input>
+  <button type='primary' bindtap='bindAdd'>计算</button>
+  <input placeholder='结果' value='{{result}}' disabled></input>
+  
+</view>
+<view class='slider'>当前值：{{slider}}</view>
+<slider min='0' max='100' bindchanging='sliderInputing' value='40'></slider>
+
+<view class='slider-box' style='height: {{slider*5}}rpx; width: {{slider*5}}rpx;'></view>
+
+<view class='box'></view>
+<view class='box-sizing'></view>

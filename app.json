@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/calculator/calculator",
+    "pages/view/view",
+    "pages/button/button",
+    "pages/switch/switch",
+    "pages/form/form",
+    "pages/survey/survey",
+    "pages/loading/loading",
+    "pages/media/media",
+    "pages/getweixin/getweixin",
+    "pages/clacialSaying/clacialSaying",
+    "pages/photo/photo",
+    "pages/location/location",
+    "pages/music/music"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {}
+}

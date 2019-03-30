@@ -1,0 +1,18 @@
+<!--pages/media/media.wxml-->
+<view class='page'>
+  <view class='page-head'>
+    <text class='page-title'>audio音频</text>
+  </view>
+  <view class='page-body'>
+    <view class='section section-gap' style='text-align:center;'>
+      <audio id="audio1" src='{{current.src}}' poster='{{current.poster}}' name="{{current.name}}" author='{{current.author}}' action="{{audioAction}}" controls bindplay='bindPlay'></audio>
+    </view>
+  </view>
+
+  <view class='btn-area'>
+    <button type='primary' bindtap='audioPlay'>播放</button>
+    <button type='primary' bindtap='audioPause'>暂停</button>
+    <button bindtap='audio20'>设置当前播放时间为20秒</button>
+    <button bindtap='audioStart'>回到开头</button>
+  </view>
+</view>

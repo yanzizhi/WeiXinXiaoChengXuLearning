@@ -1,0 +1,41 @@
+/* pages/clacialSaying/clacialSaying.wxss */
+.key-word {
+  margin: 20rpx 30rpx;
+  margin-bottom: 50rpx;
+}
+.key-word view {
+  color: #aaaaaa;
+  margin-left: 20rpx;
+  margin-bottom: 10rpx;
+}
+.key-word input {
+  padding: 30rpx 20rpx;
+  background-color: #f8f8f8;
+}
+.placeholder-class {
+  font-size: 32rpx;
+}
+
+.result {
+  margin: 60rpx 30rpx;
+  /* background-color: #f9f9f9; */
+  padding: 20rpx 20rpx;
+  font-size: 30rpx;
+}
+.title {
+  font-size: 36rpx;
+  text-align: center;
+  margin-bottom: 20rpx;
+  margin-top: 30rpx;
+  font-weight: bold;
+}
+.content {
+  line-height: 1.5;
+  margin-bottom: 10rpx;
+  padding: 10rpx 10rpx;
+  background-color: #f9f9f9;
+}
+.warning {
+  font-size: 36rpx;
+  color: #aaaaaa;
+}
